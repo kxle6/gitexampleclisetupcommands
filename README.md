@@ -1,22 +1,22 @@
-### *** Create free GitHub account ***
+###  Create free GitHub account 
 
 https://github.com/
 
-### *** Create and use new SSH keys for GitHub account ***
+###  Create and use new SSH keys for GitHub account 
 
 https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
 
-### *** If you don't already have Git installed, install it ***
+###  If you don't already have Git installed, install it 
 
 https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
-### *** Login with your username/email ***
+###  Login with your username/email 
 
 `git config --global user.name “[firstname lastname]”`
 
 `git config --global user.email “[valid-email]”`
 
-### *** Make Directory ***
+###  Make Directory 
 
 `mkdir GitHub`
 
@@ -26,13 +26,13 @@ https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
 `cd testrepo1`
 
-### *** Initialize Git for local folder ***
+###  Initialize Git for local folder 
 
 `git init`
 
 Initialized empty Git repository in /Users/user1/Desktop/GitHub/testrepo1/.git/
 
-### *** Create test file ***
+###  Create test file 
 
 `touch testfile123.txt`
 
@@ -48,7 +48,7 @@ drwxr-xr-x  9 user1  288 Oct 11 12:56 .git
 
 -rw-r--r--  1 user1    0 Oct 11 12:56 testfile123.txt
 
-### *** Verify test file is not added for staging ***
+###  Verify test file is not added for staging 
 
 `git status`
 
@@ -63,11 +63,11 @@ Untracked files:
 
 nothing added to commit but untracked files present (use "git add" to track)
 
-### *** Add test file for staging ***
+###  Add test file for staging 
 
 `git add testfile123.txt` 
 
-### *** Verify test file is added for staging ***
+###  Verify test file is added for staging 
 
 `git status`
 
@@ -80,7 +80,7 @@ Changes to be committed:
 
 	new file:   testfile123.txt
 
-### *** Commit the file to staging ***
+###  Commit the file to staging 
 
 `git commit -m "First commit"`
 
@@ -90,7 +90,7 @@ Changes to be committed:
 
  create mode 100644 testfile123.txt
 
-### *** Create and move to new branch ***
+###  Create and move to new branch 
 
 `git checkout -b test-branch`
 
@@ -102,7 +102,7 @@ git branch
 
 * test-branch
 
-### *** After creating a repo on Github.com, point the local working folder to upload to remote repo ***
+###  After creating a repo on Github.com, point the local working folder to upload to remote repo 
 
 How to create a repo (free acounts only allow for public repo's)
 
@@ -114,7 +114,7 @@ https://help.github.com/articles/create-a-repo/
 
 Username for 'https://github.com': `<githubusername>`
 
-*** If you have 2FA for GitHub account, use Token, not password https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/ ***
+ If you have 2FA for GitHub account, use Token, not password https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/ 
 
 Password for 'https://<githubusername>@github.com': `<password or token>`
 
@@ -140,7 +140,7 @@ To https://github.com/<githubusername>/testrepo1.git
 
 Branch 'master' set up to track remote branch 'master' from 'origin'.
 
-### *** Push branch to repo *** 
+###  Push branch to repo  
 
 `git push origin test-branch`
 
@@ -158,7 +158,7 @@ To https://github.com/<githubusername>/testrepo1.git
 
  * [new branch]      test-branch -> test-branch
 
-### *** Get changes on GitHub back to local folder ***
+###  Get changes on GitHub back to local folder 
 
 `git pull origin master`
 
