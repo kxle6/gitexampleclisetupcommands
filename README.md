@@ -163,3 +163,7 @@ From https://github.com/<githubusername>/testrepo1
  * branch            master     -> FETCH_HEAD
 
 Already up to date.
+
+### More useful commands 
+
+https://education.github.com/git-cheat-sheet-education.pdf
