@@ -22,15 +22,15 @@ https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
 `cd GitHub`
 
-`mkdir testprivaterepov1`
+`mkdir testrepo1`
 
-`cd testprivaterepov1`
+`cd testrepo1`
 
 ### *** Initialize Git for local folder ***
 
 `git init`
 
-Initialized empty Git repository in /Users/user1/Desktop/GitHub/testprivaterepov1/.git/
+Initialized empty Git repository in /Users/user1/Desktop/GitHub/testrepo1/.git/
 
 ### *** Create test file ***
 
