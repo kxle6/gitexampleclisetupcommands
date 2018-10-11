@@ -110,7 +110,7 @@ git branch
 
 Username for 'https://github.com': `<githubusername>`
 
-### *** If you have 2FA for GitHub account, use Token, not password https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/ ***
+*** If you have 2FA for GitHub account, use Token, not password https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/ ***
 
 Password for 'https://<githubusername>@github.com': `<password or token>`
 
