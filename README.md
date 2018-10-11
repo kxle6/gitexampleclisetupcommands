@@ -104,6 +104,10 @@ git branch
 
 ### *** After creating a repo on Github.com, point the local working folder to upload to remote repo ***
 
+How to create a repo (free acounts only allow for public repo's)
+
+https://help.github.com/articles/create-a-repo/
+
 `git remote add origin https://github.com/<githubusername>/testrepo1.git`
 
 `git push -u origin master`
