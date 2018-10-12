@@ -96,17 +96,6 @@ Changes to be committed:
 
  create mode 100644 testfile123.txt
 
-###  Create and move to new branch 
-
-`git checkout -b test-branch`
-
-Switched to a new branch 'test-branch'
-
-git branch
-
-  master
-
-* test-branch
 
 ###  After creating a repo on Github.com, point the local working folder to upload to remote repo 
 
@@ -145,6 +134,18 @@ To https://github.com/<githubusername>/testrepo1.git
  * [new branch]      master -> master
 
 Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+###  If you'd like to create and move to new branch 
+
+`git checkout -b test-branch`
+
+Switched to a new branch 'test-branch'
+
+git branch
+
+  master
+
+* test-branch
 
 ###  Push branch to repo  
 
