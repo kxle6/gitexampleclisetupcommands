@@ -69,7 +69,7 @@ nothing added to commit but untracked files present (use "git add" to track)
 
 `git add testfile123.txt` 
 
-If you had multiple files you wanted to upload at once, instead of adding each file individually, you can use the following command
+If you had multiple files you wanted to upload at once, instead of adding each file individually, you can use the following command to upload all files in the local folder
 
 `git add .`
 
