@@ -48,6 +48,8 @@ drwxr-xr-x  9 user1  288 Oct 11 12:56 .git
 
 -rw-r--r--  1 user1    0 Oct 11 12:56 testfile123.txt
 
+If you have other files you would like to upload to the repo, put them in your /testrepo1 local folder.
+
 ###  Verify test file is not added for staging 
 
 `git status`
@@ -66,6 +68,10 @@ nothing added to commit but untracked files present (use "git add" to track)
 ###  Add test file for staging 
 
 `git add testfile123.txt` 
+
+If you had multiple files you wanted to upload at once, instead of adding each file individually, you can use the following command
+
+`git add .`
 
 ###  Verify test file is added for staging 
 
