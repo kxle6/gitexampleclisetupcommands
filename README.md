@@ -135,7 +135,7 @@ To https://github.com/<githubusername>/testrepo1.git
 
 Branch 'master' set up to track remote branch 'master' from 'origin'.
 
-###  If you'd like to create and move to new branch 
+###  If you'd like to create and move to a new branch 
 
 `git checkout -b test-branch`
 
